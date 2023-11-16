@@ -29,6 +29,9 @@ After each policy improvement step, we check for convergence by comparing the cu
 
 ## POLICY IMPROVEMENT FUNCTION
 ```python
+# Developed by: Sandhya Charu N
+# Register Number: 212220230041
+
 def policy_improvement(V, P, gamma=1.0):
     Q=np.zeros((len(P),len(P[0])),dtype=np.float64)
     for s in range (len(P)):
