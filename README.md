@@ -24,6 +24,9 @@ Within each iteration, we perform policy evaluation using the function policy_ev
 #### Policy Improvement: 
 Following policy evaluation, we update the policy using policy_improvement. This step leverages the computed state-values to enhance the policy, aiming to make better decisions.
 
+<br>
+<br>
+
 #### Convergence Check: 
 After each policy improvement step, we check for convergence by comparing the current policy with the previous one. If there is no significant change across all states, the loop terminates, signifying that the optimal policy has been found.
 
