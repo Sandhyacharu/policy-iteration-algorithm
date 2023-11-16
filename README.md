@@ -26,6 +26,7 @@ Following policy evaluation, we update the policy using policy_improvement. This
 
 <br>
 <br>
+<br>
 
 #### Convergence Check: 
 After each policy improvement step, we check for convergence by comparing the current policy with the previous one. If there is no significant change across all states, the loop terminates, signifying that the optimal policy has been found.
